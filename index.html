@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <img id="header-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGXDbqsobkwYoNtSgdh7EUPgOEK3TOa7FX9g&s" alt="Product Logo">
+        <nav id="nav-bar">
+            <a href="#home" class="nav-link">Inicio</a>
+            <a href="#video-section" class="nav-link">Productos</a>
+            <a href="#price" class="nav-link">Precio</a>
+            <a href="#contact" class="nav-link">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Features Section -->
+        <section id="home">
+            <h2>¿Por qué elegirnos para tus proyectos creativos?</h2>
+            <p>Nosotros ofrecemos la mejor solución.</p>
+            <ul>
+                <li>Hilos de calidad para creaciones únicas</li>
+                <li>Colores vibrantes, suavidad incomparable</li>
+                <li>Ovillos sostenibles para un futuro creativo</li>
+            </ul>
+        </section>
+
+        <!-- Video Section -->
+        <section id="video-section">
+            <h2>Como se hacen los ovillos</h2>
+            <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/9pyMh0Ll-8k?si=cd9RJbWDgaXA_wbJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        
+        <!-- Price Section -->
+         <section id="price-section">
+            <div class="product" id="algodon">
+                <div class="type">Algodon</div>
+                <h2>Desde 2,50€</h2>
+                <ul>
+                    <li>Amplia gama de colores.</li>
+                    <li>Variedad de pesos</li>
+                    <li>Suavidad al tacto</li>
+                    <li>Mteriales naturales</li>
+                </ul>
+                <button class="btn">Elegir</button>
+            </div>
+            <div class="product" id="lana">
+                <div class="type">Lana</div>
+                <h2>Desde 3,50€</h2>
+                <ul>
+                    <li>Amplia gama de colores.</li>
+                    <li>Variedad de pesos</li>
+                    <li>Suavidad al tacto</li>
+                    <li>Materiales naturales</li>
+                </ul>
+                <button class="btn">Elegir</button>
+            </div>
+            <div class="product" id="reciclado">
+                <div class="type">Hilo Reciclado</div>
+                <h2>Desde 4,50€</h2>
+                <ul>
+                    <li>Amplia gama de colores.</li>
+                    <li>Variedad de pesos</li>
+                    <li>Suavidad al tacto</li>
+                    <li>Mteriales sostenibles</li>
+                </ul>
+                <button class="btn">Elegir</button>
+            </div>
+         </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Únite a nosotros</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <label for="email">Recibes todas las novedades:</label>
+                <input type="email" id="email" placeholder="correo electrónico" required name="email">
+                <input type="submit" id="submit" value="Subscribe">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
